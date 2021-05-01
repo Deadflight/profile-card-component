@@ -1,0 +1,150 @@
+:root{
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--Dark-cyan);
+  font-size: 18px;
+}
+
+
+p{
+  padding: 10px;
+  font-size: 16px;
+  color: var(--Dark-gray);
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3{
+  margin-bottom: 0;
+}
+
+.pattern-top{
+  position: fixed;
+  margin-left: -20%;
+  margin-top: -40%;
+}
+
+.pattern-bottom{
+  position: fixed;
+  margin-top: 25%;
+  margin-left: 48%;
+}
+
+.arm{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container{
+  position: fixed;
+  z-index: 4;
+  background-color: white;
+  border-radius: 0.5rem;
+  height: auto;
+  margin-top: 10%;
+  width: 320px;
+  position: fixed;
+  font-family: 'Kumbh Sans';
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pattern-card{
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.profile-img{
+  width: 30%;
+  margin: auto;
+  margin-top: -15%;
+  border-radius: 50%;
+  border:solid 4px;
+  border-color: white;
+}
+
+.profile{
+  width: 100%;
+  height: auto;
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: 700;
+}
+
+.profile-name{
+  margin-bottom: 40px;
+}
+
+.profile span{
+  color: var(--Dark-gray);
+  font-weight: 400;
+}
+
+.stats-group{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.stats-group p{
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.profile-stats{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media screen and (max-width: 800px) {
+
+  body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+
+  .arm{
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+  }
+
+  .profile-container{
+    width: 80%;
+    height: auto;
+  }
+
+  .pattern-top{
+    position: fixed;
+    margin-left: -90%;
+    margin-top: -80%;
+  }
+
+  .pattern-bottom{
+    position: fixed;
+    margin-top: 50%;
+    margin-left: 35%;
+  }
+}
+
