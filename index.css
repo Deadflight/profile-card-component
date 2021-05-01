@@ -114,6 +114,15 @@ h3{
   padding-top: 0;
 }
 
+.attribution {
+  font-family: 'Kumbh Sans';
+  font-size: 9px;
+  text-align: center;
+  margin-top: 40%;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
 @media screen and (max-width: 800px) {
 
   body{
