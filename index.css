@@ -106,22 +106,15 @@ h3{
 }
 
 .stats-group p{
+  width: 100%;
+  height: auto;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .profile-stats{
   margin-top: 0;
   padding-top: 0;
 }
-
-.attribution {
-  font-family: 'Kumbh Sans';
-  font-size: 9px;
-  text-align: center;
-  margin-top: 40%;
-}
-.attribution a { color: hsl(228, 45%, 44%); }
-
 
 @media screen and (max-width: 800px) {
 
@@ -131,6 +124,13 @@ h3{
     width: 100%;
     height: auto;
     font-size: 14px;
+  }
+
+  .stats-group p{
+    width: 100%;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 10px;
   }
 
   .arm{
