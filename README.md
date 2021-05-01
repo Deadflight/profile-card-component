@@ -20,7 +20,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./images/desktop-desing.PNG)
+![Desktop Desing](./images/desktop-desing.PNG)
 
 ### Links
 
