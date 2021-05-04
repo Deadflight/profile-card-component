@@ -16,6 +16,9 @@ body{
   font-size: 18px;
 }
 
+hr{
+  opacity: 0.5;
+}
 
 p{
   padding: 10px;
@@ -54,7 +57,7 @@ h3{
   border-radius: 0.5rem;
   height: auto;
   margin-top: 10%;
-  width: 320px;
+  width: 300px;
   position: fixed;
   font-family: 'Kumbh Sans';
   display: inline-flex;
